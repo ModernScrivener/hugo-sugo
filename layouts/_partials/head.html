@@ -97,10 +97,10 @@
 {{- if gt (len .Sites) 1 }}
   {{- if .IsTranslated }}
     {{- range .AllTranslations }}
-      <link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
+      <link rel="alternate" hreflang="{{ .Language.Locale }}" href="{{ .Permalink }}">
     {{- end }}
   {{- else }}
-    <link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
+    <link rel="alternate" hreflang="{{ .Language.Locale }}" href="{{ .Permalink }}">
   {{- end }}
 {{- end }}
 {{- if .IsPage }}
