@@ -12,7 +12,7 @@
   {{- end -}}
 {{- end -}}
 <!DOCTYPE html>
-<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}" class="no-js" data-theme="{{ $defaultTheme }}">
+<html lang="{{ site.Language.Locale }}" dir="{{ or site.Language.Direction `ltr` }}" class="no-js" data-theme="{{ $defaultTheme }}">
 <head>
   {{ partial "head.html" . }}
 </head>
