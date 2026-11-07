@@ -1542,6 +1542,14 @@ html[data-theme="dark"] .article-share__list img {
   border-style: dashed;
 }
 
+.term-pills--series .term-pills__label {
+  color: var(--color-muted);
+}
+
+.term-pill--series {
+  border-style: dashed;
+}
+
 .site-footer {
   width: min(var(--container-max), 100% - 3rem);
   margin: 1rem auto 0;
