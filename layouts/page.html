@@ -204,6 +204,7 @@
     {{ if not $isStandalonePage }}
       {{ partial "terms.html" (dict "taxonomy" "categories" "page" .) }}
       {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+      {{ partial "terms.html" (dict "taxonomy" "series" "page" .) }}
       {{ partial "related-posts.html" . }}
       {{ partial "article-comments.html" . }}
     {{ end }}
